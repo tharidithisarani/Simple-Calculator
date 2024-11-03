@@ -1,28 +1,48 @@
-Simple Calculator
-A simple calculator web application that performs basic arithmetic operations: addition, subtraction, multiplication, and division. Built with HTML, CSS, and JavaScript.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - Simple Calculator</title>
+</head>
+<body>
 
-Live Demo
-You can try the live version of the calculator here: Simple Calculator
+<h1>Simple Calculator</h1>
+<p>A basic calculator built using HTML, CSS, and JavaScript. This calculator can perform four primary arithmetic operations: addition, subtraction, multiplication, and division.</p>
 
-Project Structure
-index.html - Contains the HTML structure for the calculator interface.
-style.css - Provides the styling for the calculator, including layout and design.
-script.js - Contains the JavaScript code to handle user input and perform calculations.
-Features
-Addition, subtraction, multiplication, and division operations
-Simple, user-friendly interface
-Responsive design for use on various devices
-Usage
-Open the live demo link in your browser.
-Use the on-screen buttons to perform calculations.
-Installation
-If you want to run the project locally:
+<h2>Project Structure</h2>
+<ul>
+    <li><strong>index.html</strong>: The main HTML file containing the structure of the calculator.</li>
+    <li><strong>style.css</strong>: CSS file to style the calculator interface.</li>
+    <li><strong>script.js</strong>: JavaScript file to implement the calculator's functionality.</li>
+</ul>
 
-Clone this repository to your local machine.
-Open index.html in your preferred browser.
-Technologies Used
-HTML - Markup language for structuring the calculator layout.
-CSS - Stylesheet for styling the calculator's appearance.
-JavaScript - Provides functionality for performing calculations.
-License
-This project is open source and available under the MIT License.
+<h2>Features</h2>
+<ul>
+    <li>Addition (+)</li>
+    <li>Subtraction (-)</li>
+    <li>Multiplication (*)</li>
+    <li>Division (/)</li>
+</ul>
+
+<h2>Demo</h2>
+<p>The project is hosted and can be accessed here: <a href="https://simple-calculate-33a15.web.app" target="_blank">Simple Calculator</a></p>
+
+<h2>How to Use</h2>
+<ol>
+    <li>Enter the first number.</li>
+    <li>Select an operator (+, -, *, /).</li>
+    <li>Enter the second number.</li>
+    <li>Press the "=" button to see the result.</li>
+    <li>To clear the input, press the "C" or "Clear" button.</li>
+</ol>
+
+<h2>Technologies Used</h2>
+<ul>
+    <li><strong>HTML</strong>: To structure the content.</li>
+    <li><strong>CSS</strong>: To style the calculator interface.</li>
+    <li><strong>JavaScript</strong>: To add the calculator's interactive functionality.</li>
+</ul>
+
+</body>
+</html>
