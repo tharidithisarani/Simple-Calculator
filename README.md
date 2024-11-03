@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Simple Calculator</title>
+    <!-- <title>README - Simple Calculator</title> -->
 </head>
 <body>
 
