@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate</title>
+    <link rel="icon" href="/img/vaadin--calc (1).png" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <img src="/img/image.png" alt="background-image" />
+    <div class="calculater">
+      <!-- cal top button -->
+      <div class="top">
+        <button class="buttonClear" id="clear" onclick="clearDisplay()">
+          C
+        </button>
+        <div id="screen" class="screen"></div>
+      </div>
+
+      <!-- keys -->
+      <div class="keys">
+        <button class="button" onclick="toDisplay('7')">7</button>
+        <button class="button" onclick="toDisplay('8')">8</button>
+        <button class="button" onclick="toDisplay('9')">9</button>
+        <button class="button operators" onclick="toDisplay('+')">+</button>
+
+        <button class="button" onclick="toDisplay('4')">4</button>
+        <button class="button" onclick="toDisplay('5')">5</button>
+        <button class="button" onclick="toDisplay('6')">6</button>
+        <button class="button operators" onclick="toDisplay('-')">-</button>
+
+        <button class="button" onclick="toDisplay('1')">1</button>
+        <button class="button" onclick="toDisplay('2')">2</button>
+        <button class="button" onclick="toDisplay('3')">3</button>
+        <button class="button operators" onclick="toDisplay('/')">/</button>
+
+        <button class="button" onclick="toDisplay('0')">0</button>
+        <button class="button operators" onclick="toDisplay('.')">.</button>
+        <button class="button operators" onclick="toDisplay('=')">=</button>
+        <button class="button operators" onclick="toDisplay('*')">*</button>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
